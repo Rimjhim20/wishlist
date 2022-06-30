@@ -32,7 +32,7 @@ const wishlist = () => {
           <a>Ecommerce Buy &gt;</a>
           </Link>
 		  <Link href="/cartpage">
-          <a ><b>Cart</b></a>
+          <a ><b>Wishlist</b></a>
           </Link>
 		  <br/>
       <p>Total item - <b>16</b></p>
