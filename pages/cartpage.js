@@ -12,14 +12,16 @@ const Cartpage = () => {
 			  <Link href="/home">
           <a>Home &gt;</a>
           </Link>
-		  <Link href="/home">
+		  <Link href="/buy">
           <a>Ecommerce Buy &gt;</a>
           </Link>
 		  <Link href="/cartpage">
           <a ><b>Cart</b></a>
           </Link>
 		  <br/>
-			<span className='goback'><i className="fa-solid fa-arrow-left-long goback"></i> Go back</span>
+			<Link href="/buy" className='goback'>
+			<a><i className="fa-solid fa-arrow-left-long goback"></i>
+				 Go back</a></Link>
 			</div>
 			<div className={cartCss.wrapper}>
 				<div className={cartCss.project}>
