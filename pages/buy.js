@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../components/Card'
+import Pagination from '../components/Pagination'
 import Filter from '../components/Filter'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -238,6 +238,8 @@ const Buy = () => {
           <br />
         </div>
       </div>
+
+      <Pagination/>
     </>
   )
 }
