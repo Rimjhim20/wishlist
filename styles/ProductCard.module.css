@@ -1,39 +1,19 @@
-.card{
-  background-color: white;
-  border-radius: 0.25rem;
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-   
-  
-}
 .cards {
-  max-width: 100rem;
- margin:auto;
+  max-width: 1000px;
   display: grid;
   gap: 1rem;
- 
-}
-
-@media (min-width: 600px) {
-  .cards { grid-template-columns: repeat(2, 1fr); }
-}
-
-@media (min-width: 900px) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
+  list-style: none;
+  
 }
 .cards_item {
   display: flex;
   padding: 1rem;
 }
-
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-  }
-}
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: fit-content;
+  width: 20rem;
+  background-color: white;
 }
 .Product{
   position: relative;
@@ -44,7 +24,7 @@
 .card_title {
   color: #24A1FD;
   font-size: 1.9rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0px;
@@ -82,11 +62,6 @@
   right: 16px;
 }
 
-.product_inside{
-  
-  margin-top: 20px;
-  text-align: left;
-}
 .Product_detail{
   padding: 10px 10px;
 }
@@ -103,7 +78,7 @@
 .wishlist:hover{
 color: red;
 }
-  .HomeProduct{
+.HomeProduct{
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -115,6 +90,15 @@ color: red;
 }
 .icons{
   float: right;
+}
+@media (min-width: 300px) {
+  .cards { grid-template-columns: repeat(1, 1fr); }
+}
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
 }
 
 

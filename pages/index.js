@@ -1,9 +1,9 @@
 
-import Wishlist from '../components/wishlist'
+import Buy from '../pages/buy'
 export default function Index() {
   return (
     <>
-   <Wishlist/>
+   <Buy/>
      </>
   )
 }

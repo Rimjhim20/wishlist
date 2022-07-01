@@ -1,12 +1,10 @@
 /* eslint-disable react/no-unknown-property */
 import React from 'react'
-
 const Filter = () => {
   return (
     <div className="">
-    <h1>Filters</h1>
     <div className=" border-box">
-    <h3> PRICE</h3>
+    <h5> PRICE</h5>
 <div className="form-check">   
 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
 <label className="form-check-label" for="flexCheckDefault">₹25,000 - ₹40,000</label>
@@ -24,7 +22,7 @@ const Filter = () => {
 <label className="form-check-label" for="flexCheckDefault">₹25,000 - ₹40,000</label>
 </div>
 <hr/>
-<h3> CUSTOMER RATING</h3>
+<h5> CUSTOMER RATING</h5>
 <div className="form-check">   
 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
 <label className="form-check-label" for="flexCheckDefault">4★ &above</label>
@@ -42,16 +40,16 @@ const Filter = () => {
 <label className="form-check-label" for="flexCheckDefault">1★ &above</label>
 </div>
 <hr/>
-<h3> AVAILABILITY</h3>
+<h5> AVAILABILITY</h5>
 <div className="form-check">   
 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
 <label className="form-check-label" for="flexCheckDefault">Exclude out of stock</label>
 </div>
 <hr/>
-<h3> ACCESSIBILITY</h3>
+<h5> ACCESSIBILITY</h5>
 <div className="form-check">   
 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-<label className="form-check-label" for="flexCheckDefault">Show only products available to your location</label>
+<label className="form-check-label" for="flexCheckDefault">Show only products <br/>available to your location</label>
 </div>
 </div>
 </div>

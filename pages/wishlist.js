@@ -28,7 +28,7 @@ const wishlist = () => {
 			  <Link href="/home">
           <a>Home &gt;</a>
           </Link>
-		  <Link href="/home">
+		  <Link href="/buy">
           <a>Ecommerce Buy &gt;</a>
           </Link>
 		  <Link href="/cartpage">
