@@ -1,5 +1,6 @@
 import React from 'react'
 import catcss from "../styles/CategoryBar.module.css"
+import Link from 'next/link'
 const wishlistbar = () => {
   return (
     <>
@@ -9,10 +10,10 @@ const wishlistbar = () => {
         <i className="fa fa-caret-down"></i>
       </button>
       <div className={catcss.dropdowncontent}>
-        <a href="/AllCategory">STEEL</a>
-        <a href="/AllCategory">ALUMINIUM</a>
-        <a href="/AllCategory">COPPER</a>
-        <a href="/AllCategory">AUTOPARTS</a>
+        <Link href="/AllCategory"><a>STEEL</a></Link>
+        <Link href="/AllCategory"><a>ALUMINIUM</a></Link>
+        <Link href="/AllCategory"><a>COPPER</a></Link>
+        <Link href="/AllCategory"><a>AUTOPARTS</a></Link>
       </div>
     </div>
     <div className={catcss.list}>

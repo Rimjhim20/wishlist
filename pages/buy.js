@@ -75,7 +75,7 @@ const Buy = () => {
             <i className="fa-solid fa-ellipsis"></i>
             <div className={buyCss.Product_detail}>
               <div className={buyCss.Product_Title}>
-                <h3>Aluminum Scrap</h3>
+                <Link href="/product"><a><h3>Aluminum Scrap</h3></a></Link>
                 <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
               <div className={buyCss.Product_Description}>
@@ -104,7 +104,7 @@ const Buy = () => {
             <i className="fa-solid fa-ellipsis"></i>
             <div className={buyCss.Product_detail}>
               <div className={buyCss.Product_Title}>
-                <h3>Aluminum Scrap</h3>
+              <Link href="/product"><a><h3>Aluminum Scrap</h3></a></Link>
                 <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
               <div className={buyCss.Product_Description}>
@@ -133,7 +133,7 @@ const Buy = () => {
             <i className="fa-solid fa-ellipsis"></i>
             <div className={buyCss.Product_detail}>
               <div className={buyCss.Product_Title}>
-                <h3>Aluminum Scrap</h3>
+              <Link href="/product"><a><h3>Aluminum Scrap</h3></a></Link>
                 <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
               <div className={buyCss.Product_Description}>
@@ -162,7 +162,7 @@ const Buy = () => {
             <i className="fa-solid fa-ellipsis"></i>
             <div className={buyCss.Product_detail}>
               <div className={buyCss.Product_Title}>
-                <h3>Aluminum Scrap</h3>
+              <Link href="/product"><a><h3>Aluminum Scrap</h3></a></Link>
                 <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
               <div className={buyCss.Product_Description}>
@@ -191,7 +191,7 @@ const Buy = () => {
             <i className="fa-solid fa-ellipsis"></i>
             <div className={buyCss.Product_detail}>
               <div className={buyCss.Product_Title}>
-                <h3>Aluminum Scrap</h3>
+              <Link href="/product"><a><h3>Aluminum Scrap</h3></a></Link>
                 <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
               <div className={buyCss.Product_Description}>
@@ -220,7 +220,7 @@ const Buy = () => {
             <i className="fa-solid fa-ellipsis"></i>
             <div className={buyCss.Product_detail}>
               <div className={buyCss.Product_Title}>
-                <h3>Aluminum Scrap</h3>
+              <Link href="/product"><a><h3>Aluminum Scrap</h3></a></Link>
                 <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
               <div className={buyCss.Product_Description}>
