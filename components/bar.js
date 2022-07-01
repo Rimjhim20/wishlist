@@ -17,11 +17,10 @@ const wishlistbar = () => {
       </div>
     </div>
     <div className={catcss.list}>
-     <Link href="/AllCategory"><a>STEEL </a>&emsp; |</Link>
-      <Link href="/AllCategory"><a>ALUMINIUM  </a>
-    &emsp; |</Link>
-     <Link href="/AllCategory"><a>COPPER </a>&emsp; |</Link> 
-     <Link href="/AllCategory"><a>AUTOPARTS</a> </Link>
+    <Link href="/AllCategory"><a>STEEL</a></Link>
+        <Link href="/AllCategory"><a>ALUMINIUM</a></Link>
+        <Link href="/AllCategory"><a>COPPER</a></Link>
+        <Link href="/AllCategory"><a>AUTOPARTS</a></Link>
     </div>
     </div>
     </>
