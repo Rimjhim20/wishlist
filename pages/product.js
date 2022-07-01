@@ -127,7 +127,7 @@ const product = () => {
 <div className={productCss.middlesection}>
   <div className={productCss.overview}>
 <h2>Project Overview</h2>
-<table className={productCss.table}>
+{/* <table className={productCss.table}>
   <tr>
     <th>Product Name:</th>
     <td>Aluminum rod 99.9% pure scrap</td>
@@ -155,7 +155,7 @@ const product = () => {
     <td>6063
 </td>
   </tr>
-</table>
+</table> */}
 
   </div>
 <div className={productCss.description}>
