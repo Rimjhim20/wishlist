@@ -6,14 +6,13 @@ import Link from 'next/link'
 import Bar from '../components/bar'
 import catcss from "../styles/CategoryBar.module.css"
 import buyCss from "../styles/Buy.module.css"
-import wishCss from '../styles/Wishlist.module.css'
-import cardCss from '../styles/Card.module.css'
+
 const Buy = () => {
   return (
     <>
       <div className={catcss.categorybar}>
         <Bar />
-        <div className={cardCss.icons}>
+        <div className={buyCss.icons}>
           <Link href="/wishlist">
             <a>
               <i className="fa-regular fa-heart wishhover "></i>
@@ -59,177 +58,177 @@ const Buy = () => {
       </div>
     </div>
       </div>
-      <div className={cardCss.display}>
+      <div className={buyCss.display}>
         <Filter />
-        <div className={cardCss.cards}>
-          <div className={cardCss.card}>
-            <div className={cardCss.Product}>
-              <Image src="/metal.png" alt="steel" className={cardCss.cardimg}
+        <div className={buyCss.cards}>
+          <div className={buyCss.card}>
+            <div className={buyCss.Product}>
+              <Image src="/metal.png" alt="steel" className={buyCss.cardimg}
                 width={400}
                 height={200} />
-              <div className={cardCss.bottom_right_detail}>
+              <div className={buyCss.bottom_right_detail}>
                 <small>
                   4.9 <i className="bi bi-star-fill"></i> (1349)
                 </small>
               </div>
             </div>
             <i className="fa-solid fa-ellipsis"></i>
-            <div className={cardCss.Product_detail}>
-              <div className={cardCss.Product_Title}>
+            <div className={buyCss.Product_detail}>
+              <div className={buyCss.Product_Title}>
                 <h3>Aluminum Scrap</h3>
-                <p className={cardCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
+                <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
-              <div className={cardCss.Product_Description}>
+              <div className={buyCss.Product_Description}>
                 <small>Recycled Aluminium scrap from blast furnace.</small>
               </div>
-              <ul className={`${cardCss.Product_Quantity} ${cardCss.display}`}>
+              <ul className={`${buyCss.Product_Quantity} ${buyCss.display}`}>
                 <li>1 Ton <small>(min order)</small></li>
-                <li className={cardCss.Product_Price}>
+                <li className={buyCss.Product_Price}>
                   ₹ 1,39,999
                 </li>
               </ul>
             </div>
 
           </div>
-          <div className={cardCss.card}>
-            <div className={cardCss.Product}>
-              <Image src="/metal.png" alt="steel" className={cardCss.cardimg}
+          <div className={buyCss.card}>
+            <div className={buyCss.Product}>
+              <Image src="/metal.png" alt="steel" className={buyCss.cardimg}
                 width={400}
                 height={200} />
-              <div className={cardCss.bottom_right_detail}>
+              <div className={buyCss.bottom_right_detail}>
                 <small>
                   4.9 <i className="bi bi-star-fill"></i> (1349)
                 </small>
               </div>
             </div>
             <i className="fa-solid fa-ellipsis"></i>
-            <div className={cardCss.Product_detail}>
-              <div className={cardCss.Product_Title}>
+            <div className={buyCss.Product_detail}>
+              <div className={buyCss.Product_Title}>
                 <h3>Aluminum Scrap</h3>
-                <p className={cardCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
+                <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
-              <div className={cardCss.Product_Description}>
+              <div className={buyCss.Product_Description}>
                 <small>Recycled Aluminium scrap from blast furnace.</small>
               </div>
-              <ul className={`${cardCss.Product_Quantity} ${cardCss.display}`}>
+              <ul className={`${buyCss.Product_Quantity} ${buyCss.display}`}>
                 <li>1 Ton <small>(min order)</small></li>
-                <li className={cardCss.Product_Price}>
+                <li className={buyCss.Product_Price}>
                   ₹ 1,39,999
                 </li>
               </ul>
             </div>
 
           </div>
-          <div className={cardCss.card}>
-            <div className={cardCss.Product}>
-              <Image src="/metal.png" alt="steel" className={cardCss.cardimg}
+          <div className={buyCss.card}>
+            <div className={buyCss.Product}>
+              <Image src="/metal.png" alt="steel" className={buyCss.cardimg}
                 width={400}
                 height={200} />
-              <div className={cardCss.bottom_right_detail}>
+              <div className={buyCss.bottom_right_detail}>
                 <small>
                   4.9 <i className="bi bi-star-fill"></i> (1349)
                 </small>
               </div>
             </div>
             <i className="fa-solid fa-ellipsis"></i>
-            <div className={cardCss.Product_detail}>
-              <div className={cardCss.Product_Title}>
+            <div className={buyCss.Product_detail}>
+              <div className={buyCss.Product_Title}>
                 <h3>Aluminum Scrap</h3>
-                <p className={cardCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
+                <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
-              <div className={cardCss.Product_Description}>
+              <div className={buyCss.Product_Description}>
                 <small>Recycled Aluminium scrap from blast furnace.</small>
               </div>
-              <ul className={`${cardCss.Product_Quantity} ${cardCss.display}`}>
+              <ul className={`${buyCss.Product_Quantity} ${buyCss.display}`}>
                 <li>1 Ton <small>(min order)</small></li>
-                <li className={cardCss.Product_Price}>
+                <li className={buyCss.Product_Price}>
                   ₹ 1,39,999
                 </li>
               </ul>
             </div>
 
           </div>
-          <div className={cardCss.card}>
-            <div className={cardCss.Product}>
-              <Image src="/metal.png" alt="steel" className={cardCss.cardimg}
+          <div className={buyCss.card}>
+            <div className={buyCss.Product}>
+              <Image src="/metal.png" alt="steel" className={buyCss.cardimg}
                 width={400}
                 height={200} />
-              <div className={cardCss.bottom_right_detail}>
+              <div className={buyCss.bottom_right_detail}>
                 <small>
                   4.9 <i className="bi bi-star-fill"></i> (1349)
                 </small>
               </div>
             </div>
             <i className="fa-solid fa-ellipsis"></i>
-            <div className={cardCss.Product_detail}>
-              <div className={cardCss.Product_Title}>
+            <div className={buyCss.Product_detail}>
+              <div className={buyCss.Product_Title}>
                 <h3>Aluminum Scrap</h3>
-                <p className={cardCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
+                <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
-              <div className={cardCss.Product_Description}>
+              <div className={buyCss.Product_Description}>
                 <small>Recycled Aluminium scrap from blast furnace.</small>
               </div>
-              <ul className={`${cardCss.Product_Quantity} ${cardCss.display}`}>
+              <ul className={`${buyCss.Product_Quantity} ${buyCss.display}`}>
                 <li>1 Ton <small>(min order)</small></li>
-                <li className={cardCss.Product_Price}>
+                <li className={buyCss.Product_Price}>
                   ₹ 1,39,999
                 </li>
               </ul>
             </div>
 
           </div>
-          <div className={cardCss.card}>
-            <div className={cardCss.Product}>
-              <Image src="/metal.png" alt="steel" className={cardCss.cardimg}
+          <div className={buyCss.card}>
+            <div className={buyCss.Product}>
+              <Image src="/metal.png" alt="steel" className={buyCss.cardimg}
                 width={400}
                 height={200} />
-              <div className={cardCss.bottom_right_detail}>
+              <div className={buyCss.bottom_right_detail}>
                 <small>
                   4.9 <i className="bi bi-star-fill"></i> (1349)
                 </small>
               </div>
             </div>
             <i className="fa-solid fa-ellipsis"></i>
-            <div className={cardCss.Product_detail}>
-              <div className={cardCss.Product_Title}>
+            <div className={buyCss.Product_detail}>
+              <div className={buyCss.Product_Title}>
                 <h3>Aluminum Scrap</h3>
-                <p className={cardCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
+                <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
-              <div className={cardCss.Product_Description}>
+              <div className={buyCss.Product_Description}>
                 <small>Recycled Aluminium scrap from blast furnace.</small>
               </div>
-              <ul className={`${cardCss.Product_Quantity} ${cardCss.display}`}>
+              <ul className={`${buyCss.Product_Quantity} ${buyCss.display}`}>
                 <li>1 Ton <small>(min order)</small></li>
-                <li className={cardCss.Product_Price}>
+                <li className={buyCss.Product_Price}>
                   ₹ 1,39,999
                 </li>
               </ul>
             </div>
 
           </div>
-          <div className={cardCss.card}>
-            <div className={cardCss.Product}>
-              <Image src="/metal.png" alt="steel" className={cardCss.cardimg}
+          <div className={buyCss.card}>
+            <div className={buyCss.Product}>
+              <Image src="/metal.png" alt="steel" className={buyCss.cardimg}
                 width={400}
                 height={200} />
-              <div className={cardCss.bottom_right_detail}>
+              <div className={buyCss.bottom_right_detail}>
                 <small>
                   4.9 <i className="bi bi-star-fill"></i> (1349)
                 </small>
               </div>
             </div>
             <i className="fa-solid fa-ellipsis"></i>
-            <div className={cardCss.Product_detail}>
-              <div className={cardCss.Product_Title}>
+            <div className={buyCss.Product_detail}>
+              <div className={buyCss.Product_Title}>
                 <h3>Aluminum Scrap</h3>
-                <p className={cardCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
+                <p className={buyCss.wishlist}> <i className="fa-solid fa-heart "></i></p>
               </div>
-              <div className={cardCss.Product_Description}>
+              <div className={buyCss.Product_Description}>
                 <small>Recycled Aluminium scrap from blast furnace.</small>
               </div>
-              <ul className={`${cardCss.Product_Quantity} ${cardCss.display}`}>
+              <ul className={`${buyCss.Product_Quantity} ${buyCss.display}`}>
                 <li>1 Ton <small>(min order)</small></li>
-                <li className={cardCss.Product_Price}>
+                <li className={buyCss.Product_Price}>
                   ₹ 1,39,999
                 </li>
               </ul>

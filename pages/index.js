@@ -1,9 +1,9 @@
 
-import Category from '../pages/AllCategory'
+import Buy from '../pages/buy'
 export default function Index() {
   return (
     <>
-   <Category/>
+   <Buy/>
      </>
   )
 }

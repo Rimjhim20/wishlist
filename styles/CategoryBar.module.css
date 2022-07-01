@@ -61,5 +61,8 @@
     display: block;
   }
 
-  
-  
+@media (max-width:720px) {
+        .categorybar{
+          width: 135%;
+        }
+}
