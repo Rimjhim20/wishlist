@@ -7,10 +7,10 @@ import productCss from '../styles/Product.module.css'
 import catcss from "../styles/CategoryBar.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
-
 const product = () => {
   return (
     <>
+    <div className={productCss.wrapcontainer}>
      <div className={catcss.categorybar}>
         <Bar />
         <div className={cardCss.icons}>
@@ -127,7 +127,8 @@ const product = () => {
 <div className={productCss.middlesection}>
   <div className={productCss.overview}>
 <h2>Project Overview</h2>
-{/* <table className={productCss.table}>
+<table className={productCss.table}>
+  <tbody>
   <tr>
     <th>Product Name:</th>
     <td>Aluminum rod 99.9% pure scrap</td>
@@ -155,9 +156,10 @@ const product = () => {
     <td>6063
 </td>
   </tr>
-</table> */}
-
+  </tbody>
+</table>
   </div>
+
 <div className={productCss.description}>
   <h2>Project Description</h2>
     <ul>
@@ -181,6 +183,7 @@ const product = () => {
         <h1 className={productCss.Title} >Recently Viewed</h1>
         <Card />
         <br />
+      </div>
       </div>
     </>
   )

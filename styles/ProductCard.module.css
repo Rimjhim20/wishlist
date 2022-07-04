@@ -91,7 +91,8 @@ color: red;
 .icons{
   float: right;
 }
-@media (min-width: 300px) {
+
+@media (min-width: 400px) {
   .cards { grid-template-columns: repeat(1, 1fr); }
 }
 @media (min-width: 600px) {

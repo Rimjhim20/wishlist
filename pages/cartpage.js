@@ -23,6 +23,17 @@ const Cartpage = () => {
 			<a><i className="fa-solid fa-arrow-left-long goback"></i>
 				 Go back</a></Link>
 			</div>
+
+
+			<div className={cartCss.smallbox}>
+							<div className={cartCss.smallcontent}>
+								<p>Delivered tp &nbsp;<span className={cartCss.bold}> Anjal Singh , 390231</span></p>
+                                <p>House name, Locality, District , State</p>
+							</div>
+							<button className={cartCss.button}>Change Address</button>
+						</div>
+
+
 			<div className={cartCss.wrapper}>
 				<div className={cartCss.project}>
 					<div className={cartCss.shop}>

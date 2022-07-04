@@ -6,7 +6,6 @@ import Link from 'next/link'
 import Bar from '../components/bar'
 import catcss from "../styles/CategoryBar.module.css"
 import buyCss from "../styles/Buy.module.css"
-
 const Buy = () => {
   return (
     <>
@@ -88,7 +87,6 @@ const Buy = () => {
                 </li>
               </ul>
             </div>
-
           </div>
           <div className={buyCss.card}>
             <div className={buyCss.Product}>
