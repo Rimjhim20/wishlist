@@ -7,7 +7,7 @@ const AllCategory = () => {
         <div>
 
 <div className={allcatcss.contain}>
-			  <Link href="/home">
+			  <Link href="/">
           <a>Home &gt;</a>
           </Link>
 		

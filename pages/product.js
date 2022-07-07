@@ -32,11 +32,11 @@ const product = () => {
 			  <Link href="/home">
           <a>Home &gt;</a>
           </Link>
-		  <Link href="/home">
+		  <Link href="/buy">
           <a>Ecommerce Buy &gt;</a>
           </Link>
           <Link href="/cartpage">
-          <a >Aluminium Scrap &gt;</a>
+          <a >Aluminium &gt;</a>
           </Link>
 		  <Link href="/cartpage">
           <a ><b>Aluminium Scrap</b></a>

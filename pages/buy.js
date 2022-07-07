@@ -9,6 +9,7 @@ import buyCss from "../styles/Buy.module.css"
 const Buy = () => {
   return (
     <>
+    <div className={buyCss.container}>
       <div className={catcss.categorybar}>
         <Bar />
         <div className={buyCss.icons}>
@@ -237,6 +238,7 @@ const Buy = () => {
       </div>
 
       <Pagination/>
+      </div>
     </>
   )
 }

@@ -7,7 +7,7 @@ import wishCss from '../styles/Wishlist.module.css'
 import catcss from "../styles/CategoryBar.module.css"
 const wishlist = () => {
   return (
-    <div>
+    <div className={wishCss.contain}>
       <div className={catcss.categorybar}>
         <Bar />
         <div className={cardCss.icons}>

@@ -7,7 +7,7 @@ const Cartpage = () => {
 	const initialCount=1
 	const[count,setCount]=useState(initialCount)
 	return (
-		<div>
+		<div className={cartCss.container}>
 			<div className={cartCss.contain}>
 			  <Link href="/home">
           <a>Home &gt;</a>

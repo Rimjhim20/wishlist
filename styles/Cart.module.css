@@ -1,5 +1,27 @@
 /* cart page */
-
+.container{
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  /* Desktop View */
+  @media screen  and (max-width:1280px){
+	.container{
+			max-width: 95%;
+			margin-right: auto;
+			margin-left: auto;
+	}
+  }
+  /* Tablet View - Desktop View */
+  @media screen  and (max-width:1080px){
+	.container{
+			width: 95%;
+			margin-right: auto;
+			margin-left: auto;
+	}
+	
+  }
+  
 .producttitle{
 	color: #24A1FD;
 }
@@ -91,13 +113,12 @@ flex-direction: column;
 .Title{
     margin-left: 1rem;
 }
-.Card{
-   margin: auto;
-}
+
 .contain{
 	margin-left: 2rem;
 	margin-top: 1rem;
 	margin-bottom: 0.5rem;
+	color: #08376B;
 }
 .content {
   width: 100%;
