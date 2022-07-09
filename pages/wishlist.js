@@ -7,7 +7,7 @@ import wishCss from '../styles/Wishlist.module.css'
 import catcss from "../styles/CategoryBar.module.css"
 const wishlist = () => {
   return (
-    <div className={wishCss.contain}>
+    <div className={cardCss.contain}>
       <div className={catcss.categorybar}>
         <Bar />
         <div className={cardCss.icons}>
@@ -38,6 +38,7 @@ const wishlist = () => {
       <p>Total item - <b>16</b></p>
       <br/>
 			</div>
+      
       <div className={cardCss.cards}>
           <div className={cardCss.card}>
           <div className={cardCss.Product}>
@@ -61,7 +62,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={wishCss.button}>
+              <button className={cardCss.button}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -91,7 +92,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={wishCss.button}>
+              <button className={cardCss.button}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -121,7 +122,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={wishCss.button}>
+              <button className={cardCss.button}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -151,7 +152,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={wishCss.button}>
+              <button className={cardCss.button}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -181,7 +182,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={wishCss.button}>
+              <button className={cardCss.button}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -211,7 +212,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={wishCss.button}>
+              <button className={cardCss.button}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -241,7 +242,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={wishCss.button}>
+              <button className={cardCss.button}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -271,7 +272,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={wishCss.button}>
+              <button className={cardCss.button}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
