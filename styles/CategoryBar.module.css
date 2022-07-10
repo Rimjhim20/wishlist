@@ -64,6 +64,28 @@
 
 @media (max-width:720px) {
         .categorybar{
-          width: 135%;
+          overflow: hidden;
+          width: 1110px;
+          margin: auto;
         }
+}
+@media (max-width:350px) {
+  .categorybar{
+    overflow: hidden;
+    width: 910px;
+    margin: auto;
+  }
+}
+@media (max-width:300px) {
+  .categorybar{
+   display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .categorybar{
+    overflow: hidden;
+    width: 910px;
+    margin: auto;
+  }
 }

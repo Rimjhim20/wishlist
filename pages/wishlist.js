@@ -7,7 +7,7 @@ import wishCss from '../styles/Wishlist.module.css'
 import catcss from "../styles/CategoryBar.module.css"
 const wishlist = () => {
   return (
-    <div className={cardCss.contain}>
+    <div className={cardCss.container}>
       <div className={catcss.categorybar}>
         <Bar />
         <div className={cardCss.icons}>
@@ -35,10 +35,10 @@ const wishlist = () => {
           <a ><b>Wishlist</b></a>
           </Link>
 		  <br/>
-      <p>Total item - <b>16</b></p>
+     
       <br/>
 			</div>
-      
+      <p className={cardCss.Totalitem}>Total item - 16</p>
       <div className={cardCss.cards}>
           <div className={cardCss.card}>
           <div className={cardCss.Product}>
@@ -62,7 +62,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={cardCss.button}>
+              <button className={cardCss.cartbutton}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -92,7 +92,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={cardCss.button}>
+              <button className={cardCss.cartbutton}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -122,7 +122,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={cardCss.button}>
+              <button className={cardCss.cartbutton}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -152,7 +152,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={cardCss.button}>
+              <button className={cardCss.cartbutton}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -182,7 +182,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={cardCss.button}>
+              <button className={cardCss.cartbutton}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -212,7 +212,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={cardCss.button}>
+              <button className={cardCss.cartbutton}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -242,7 +242,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={cardCss.button}>
+              <button className={cardCss.cartbutton}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>
@@ -272,7 +272,7 @@ const wishlist = () => {
                   ₹ 1,39,999
                 </li>
               </ul>
-              <button className={cardCss.button}>
+              <button className={cardCss.cartbutton}>
                 <i className="bi bi-cart"></i>
                 <Link href="/cartpage"><a>Add to Cart</a></Link>
               </button>

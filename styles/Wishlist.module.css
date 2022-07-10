@@ -139,6 +139,14 @@
     display: flex;
 }  
 .contain{
-  margin-left: 4rem;
+  margin-left: 2rem;
   color: #08376B;
 }
+
+@media (max-width:300px) {
+  .contain{
+   display: none;
+  }
+}
+
+

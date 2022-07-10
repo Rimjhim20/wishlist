@@ -5,7 +5,6 @@ import allcatcss from "../styles/AllCategory.module.css"
 const AllCategory = () => {
     return (
         <div>
-
 <div className={allcatcss.contain}>
 			  <Link href="/">
           <a>Home &gt;</a>
