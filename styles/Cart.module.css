@@ -53,7 +53,7 @@ color: rgb(21, 206, 21);
 	padding: 6px 0px 0px 25px;
 }
 .smallbox {
-width: 40%;
+width: fit-content;
 margin-left: 2rem;
 margin-bottom: 2rem;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -62,25 +62,11 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	padding: 5px 5px 10px 15px;
 	display: flex;
 }
-@media (max-width: 1070px) {
+ @media (max-width: 520px) {
 .smallbox {
-flex-direction: column;
+	width: max-content;
 }
 }
-
-@media (max-width: 650px) {
-	.smallbox {
-	width: 60%;
-	align-items: center;
-	}
-	}
-
-	@media (max-width: 430px) {
-		.smallbox {
-		width: 100%;
-		align-items: center;
-		}
-		}
 .button{
     border: none;
     color: white;
@@ -93,6 +79,7 @@ flex-direction: column;
     border-radius: 30px;
     margin: auto;
     display: flex;
+	margin-left: 2rem;
 }  
 .ton{
 	font-weight: bolder;
@@ -112,8 +99,12 @@ flex-direction: column;
 }
 .Title{
     margin-left: 1rem;
+	width: 56rem;
 }
-
+.displaybtn{
+	display: flex;
+	justify-content: center;
+}
 .contain{
 	margin-left: 2rem;
 	margin-top: 1rem;
@@ -134,7 +125,24 @@ flex-direction: column;
 	width: fit-content;
 	margin: 15px 20px 0px 0px;
 }
-
+.placebtn{
+	display: block;
+	width: 56rem;
+	border: none;
+	background-color: #24A1FD;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	font-size: 2rem;
+	
+}
+.project{
+	display: flex;
+	justify-content: space-between;
+	width: fit-content;
+}
 .rightbar {
   margin-right: 2rem;
   margin-top: 4rem;
@@ -170,6 +178,13 @@ flex-direction: column;
 .rightbar a:hover {
 	background-color: #3972a7;
 }
+.mobgoback{
+margin-bottom: 1rem;
+margin-top: 1rem;
+margin-left: 2rem;
+margin-top: 0.5rem;
+  color: #24A1FD;
+}
 @media screen and (max-width: 700px) {
 	.content h3 {
 		margin-bottom: 15px;
@@ -177,9 +192,7 @@ flex-direction: column;
 	.content h4 {
 		margin-bottom: 20px;
 	}
-	.btn2 {
-		display: none;
-	}
+	
 	.box {
 		height: 150px;
 	}
@@ -189,28 +202,110 @@ flex-direction: column;
 	}
 }
 @media screen and (max-width: 900px) {
-	.project {
-		flex-direction: column;
-	}
+	
 	.rightbar {
-		margin-left: 8rem;
-		margin-bottom: 2rem;
+		margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 
 	}
 }
 @media screen and (max-width: 1250px) {
 	.wrapper {
-		max-width: 95%;
+		max-width: 100%;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 350px) {
 	.footersec{
-	margin-left: 2rem;
-    width: 150%;
+    width: 82rem;
 	}
+	.placebtn{
+display: none;
+	}
+}
+@media screen and (max-width: 350px) {
+	.footersec{
+    width: max-content;
+	margin-left: 12rem;
+	}
+	
 }
 .footer{
 text-align: center;
 color: #24A1FD;
 margin-bottom: 1rem;
+width: inherit;
+}
+@media screen and (max-width: 350px) {
+	
+.project {
+	flex-direction: column;
+}
+.selectbtn{
+display: none;
+}
+.contain{
+	display: none;
+}
+
+}
+
+@media screen and (min-width: 350px) {
+	.mobgoback{
+		display: none;
+	}
+	.displaybtn{
+		display: none;
+	}
+}
+@media (max-width: 200px) {
+	.shop{
+		width:80%;
+	  }
+	  .rightbar{
+		margin-left: 2rem;
+	  }
+	  .footersec{
+		width: max-content;
+		margin-left: 2rem;
+		}
+		.placebtn{
+width: 42rem;
+		}
+}
+@media screen and (max-width: 220px) and (min-width: 200px){
+
+	.shop{
+		width:100%;
+	  }
+	  .rightbar{
+		margin-left: 2rem;
+	  }
+	  .footersec{
+		width: max-content;
+		margin-left: 2rem;
+		}
+		
+}
+@media (max-width: 170px) {
+	.footersec{
+		width: 22rem;
+		margin-left: 4rem;
+		}
+
+}
+@media (max-width: 150px) {
+	.shop{
+		width:100%;
+	  }
+	  .cards_item{
+		width: 65%;
+    margin-left: -2rem;
+	  }
+	 
+}
+@media screen and (max-width: 200px) and (min-width: 150px){
+.shop{
+	width: 36rem;
+}
 }

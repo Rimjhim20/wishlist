@@ -75,7 +75,7 @@ const Card = () => {
               </div>
       </div>
     </li>
-    <li className={productcardCss.cards_item}>
+    <li className={`${productcardCss.cards_item} ${productcardCss.card3} `}>
       <div className={productcardCss.card}>
       <div className={productcardCss.Product}>
                 <Image src="/metal.png" alt="steel" className={productcardCss.cardimg}
@@ -109,7 +109,7 @@ const Card = () => {
               </div>
       </div>
     </li>
-    <li className={productcardCss.cards_item}>
+    <li className={`${productcardCss.cards_item} ${productcardCss.card4} `}>
       <div className={productcardCss.card}>
       <div className={productcardCss.Product}>
                 <Image src="/metal.png" alt="steel" className={productcardCss.cardimg}

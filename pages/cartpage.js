@@ -23,8 +23,11 @@ const Cartpage = () => {
 			<a><i className="fa-solid fa-arrow-left-long goback"></i>
 				 Go back</a></Link>
 			</div>
-
-
+<div className={cartCss.mobgoback}>
+			<Link href="/buy" >
+			<a><i className="fa-solid fa-arrow-left-long goback"></i>
+				 Go back</a></Link>
+				 </div>
 			<div className={cartCss.smallbox}>
 							<div className={cartCss.smallcontent}>
 								<p>Delivered tp &nbsp;<span className={cartCss.bold}> Anjal Singh , 390231</span></p>
@@ -39,13 +42,17 @@ const Cartpage = () => {
 					<div className={cartCss.shop}>
 						<div className={cartCss.display}>
 						
-							<h2>Selected Items</h2>
-							<button type="button" className="btn btn-outline-primary"><i className="fa-solid fa-heart redcolor "></i>Add more items from wishlist</button>
+							<h2 className={cartCss.Selectitem}>Selected Items</h2>
+							<div className={cartCss.selectbtn}>
+							<button type="button" className="btn btn-outline-primary"><i className="fa-solid fa-heart redcolor ">
+								</i>Add more items from wishlist</button>
+								</div>
 						</div>
+						<div className={cartCss.cartbox}>
 						<div className={cartCss.box}>
 							<Image src="/metal.png"
 								height={300}
-								width={350} alt="metal"
+								width={350} alt="metal" className={cartCss.img}
 							/>
 							<div className={cartCss.content}>
 								<h3 className={cartCss.producttitle}>Aluminium Scrap</h3>
@@ -63,7 +70,7 @@ const Cartpage = () => {
 						<div className={cartCss.box}>
 							<Image src="/metal.png"
 								height={300}
-								width={350} alt="metal"
+								width={350} alt="metal" className={cartCss.img}
 							/>
 							<div className={cartCss.content}>
 								<h3 className={cartCss.producttitle}>Aluminium Scrap</h3>
@@ -78,10 +85,12 @@ const Cartpage = () => {
 							<button className={cartCss.btn2}>Remove</button>
 						</div>
 						<div className={cartCss.box}>
+							
 							<Image src="/metal.png"
 								height={300}
-								width={350}  alt="metal"
+								width={350} alt="metal"  className={cartCss.img}
 							/>
+							
 							<div className={cartCss.content}>
 								<h3 className={cartCss.producttitle}>Aluminium Scrap</h3>
 								<p className="unit">Quantity :
@@ -94,8 +103,13 @@ const Cartpage = () => {
 							</div>
 							<button className={cartCss.btn2}>Remove</button>
 						</div>
+						</div>
+						<div className={cartCss.displaybtn}>
+							<button type="button" className="btn btn-outline-primary"><i className="fa-solid fa-heart redcolor ">
+								</i>Add more items from wishlist</button>
+								</div>
 					</div>
-					
+				
 
 					<div className={cartCss.rightbar}>
 						<h2>PRICE DETAILS <small>(3 items)</small></h2>
@@ -118,13 +132,17 @@ const Cartpage = () => {
 				<Card />
 				<Card />
 			</div>
-			</div>
 			<div className={cartCss.footersec}>
 			<footer className={cartCss.footer}>
 				&copy; All Right Reserved @bismillaenterprises. Privacy, Terms of use, Security Overview. 
 			</footer>
 			</div>
+			</div>
+			<div className={cartCss.fullbtn}>
+			<button className={cartCss.placebtn}>Place Order</button>
+			</div>
 		</div>
+		
 	)
 }
 
