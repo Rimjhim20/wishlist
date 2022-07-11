@@ -119,9 +119,10 @@ display: block;
     }
     }
 
-  @media (max-width:700px) {
+  @media (max-width:720px) {
   .card{
     margin-left: 1rem;
+    margin-right: 6rem;
     width: 110%;
     
   }
@@ -159,7 +160,7 @@ display: block;
    
   }
   
-  @media (min-width: 700px) {
+  @media (min-width: 150px) {
     .cards { grid-template-columns: repeat(2, 1fr); }
   }
   
@@ -262,7 +263,6 @@ display: block;
   .icons{
     float: right;
   }
-  
   
   
   

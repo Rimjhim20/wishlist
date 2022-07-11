@@ -196,10 +196,7 @@ margin-top: 0.5rem;
 	.box {
 		height: 150px;
 	}
-	.box img {
-		height: 150px;
-		width: 200px;
-	}
+	
 }
 @media screen and (max-width: 900px) {
 	
@@ -215,7 +212,7 @@ margin-top: 0.5rem;
 		max-width: 100%;
 	}
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 480px) {
 	.footersec{
     width: 82rem;
 	}
@@ -223,7 +220,7 @@ margin-top: 0.5rem;
 display: none;
 	}
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 480px) {
 	.footersec{
     width: max-content;
 	margin-left: 12rem;
@@ -236,7 +233,7 @@ color: #24A1FD;
 margin-bottom: 1rem;
 width: inherit;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width:480px) {
 	
 .project {
 	flex-direction: column;
@@ -250,7 +247,7 @@ display: none;
 
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 480px) {
 	.mobgoback{
 		display: none;
 	}

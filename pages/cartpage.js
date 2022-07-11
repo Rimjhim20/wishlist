@@ -51,7 +51,7 @@ const Cartpage = () => {
 						<div className={cartCss.cartbox}>
 						<div className={cartCss.box}>
 							<Image src="/metal.png"
-								height={300}
+								height={150}
 								width={350} alt="metal" className={cartCss.img}
 							/>
 							<div className={cartCss.content}>
@@ -69,7 +69,7 @@ const Cartpage = () => {
 						</div>
 						<div className={cartCss.box}>
 							<Image src="/metal.png"
-								height={300}
+								height={150}
 								width={350} alt="metal" className={cartCss.img}
 							/>
 							<div className={cartCss.content}>
@@ -87,7 +87,7 @@ const Cartpage = () => {
 						<div className={cartCss.box}>
 							
 							<Image src="/metal.png"
-								height={300}
+								height={150}
 								width={350} alt="metal"  className={cartCss.img}
 							/>
 							
