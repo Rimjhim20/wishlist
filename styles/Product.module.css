@@ -100,8 +100,15 @@ width: 30rem;
 width: 1280px;
 margin: auto;
 }
-
-@media (max-width: 600px) {
+.card_title {
+  color: #24A1FD;
+  font-size: 1.9rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+@media (max-width: 480px) {
 .middlesection{
 display: flex;
 flex-direction: column;
@@ -117,18 +124,64 @@ margin-top: 1rem;
 .cards_item {
   width: 50%;
 }
+
+
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
+  .pagetitle{
+    display: none;
+  }
 .cards {
   flex-direction: column;
 }
 .cards_item {
   width: 75%;
+ 
+}
+.middlesection{
+  font-size: x-large;
+}
+.overview h2{
+  font-size: 48px;
+}
+.table{
+width: 50rem;
+}
+.description h2{
+font-size: 48px;
+margin-bottom: 1rem;
+}
+.description{
+  width: 40rem;
 }
 .card{
   margin-left: 2rem;
+  
+}
+.card_text {
+  font-size: x-large;
+  
+}
+.card_content {
+  font-size: x-large;
+  margin-left: 4rem;
+
+}
+.card_title{
+  font-size: 50px;
+}
+.Title{
+  font-size: 48px;
+}
+.doubtbtn{
+  font-size: 1.3rem;
 }
 }
+
+
+
+
+
 @media (max-width: 300px) {
 .pagetitle{
   display: none;

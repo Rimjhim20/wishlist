@@ -111,15 +111,20 @@ color: red;
     width: 25rem;
   }
 }
-
 @media (max-width: 480px) {
   .card4, .card3 {
     display: none;
   }
   .card {
     height: fit-content;
-    width: 24rem;
+    font-size: 34px;
+    width: 32rem;
+    margin-left: 2rem;
   }
+  .Product_Title h3{
+    font-size: 48px;
+  }
+  
 }
 @media (max-width: 220px) {
   .card {
@@ -131,6 +136,29 @@ color: red;
     margin-left: -3rem;
   }
   
+}
+
+@media (max-width: 300px) {
+  .card {
+    height: fit-content;
+    width: 25rem;
+  }
+  .cards{
+    width: 10%;
+    margin-left: -3rem;
+  }
+  
+}
+
+@media screen and (max-width: 300px) and (min-width: 235px){
+  .card {
+    height: fit-content;
+    width: 28rem;
+  }
+  .cards{
+    width: 10%;
+    margin-left: -3rem;
+  }
 }
 @media (max-width: 170px) {
   .card {

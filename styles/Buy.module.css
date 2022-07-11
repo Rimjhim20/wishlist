@@ -119,14 +119,6 @@ display: block;
     }
     }
 
-  @media (max-width:720px) {
-  .card{
-    margin-left: 1rem;
-    margin-right: 6rem;
-    width: 110%;
-    
-  }
-  }
   @media (max-width:400px) {
     .btn{
         width: 110%;

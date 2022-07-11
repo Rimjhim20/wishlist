@@ -89,7 +89,7 @@ const product = () => {
           <div className={productCss.card}>
             <div className={productCss.card_content}>
               <div className={productCss.display}>
-                <h2 className={cardCss.card_title}>Aluminium Scrap</h2>
+                <h2 className={productCss.card_title}>Aluminium Scrap</h2>
                 <i className="fa-solid fa-heart redcolor"></i>
               </div>
               <p className={productCss.card_text}>Recycled Aluminium scrap from blast <br/> furnace.</p>

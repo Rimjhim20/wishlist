@@ -244,10 +244,8 @@ display: none;
 .contain{
 	display: none;
 }
-
 }
-
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
 	.mobgoback{
 		display: none;
 	}
