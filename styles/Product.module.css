@@ -92,7 +92,10 @@ height: fit-content;
 width: 30rem;
 
 }
-
+.piccontainer{
+  display: flex;
+  flex-direction: row;
+}
 .wrapcontainer{
 width: 1280px;
 margin: auto;

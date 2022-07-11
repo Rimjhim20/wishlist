@@ -71,7 +71,7 @@ const product = () => {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              <div className="container">
+              <div className={productCss.piccontainer}>
                 <Pic />
                 <Pic />
                 <Pic />
